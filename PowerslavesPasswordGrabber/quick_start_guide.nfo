@@ -1,0 +1,38 @@
+
+  ______............................_.......................
+ (_____ \..........................| |......................
+  _____) )__.._._._._____..____.___| |._____._..._._____....
+ |  ____/ _ \| | | | ___ |/ ___)___) |(____ | | | | ___ |...
+ | |...| |_| | | | | ____| |..|___ | |/ ___ |\ V /| ____|...
+ |_|....\___/.\___/|_____)_|..(___/.\_)_____|.\_/.|_____).CH
+ GET ENSLAVED!
+
+
+PowerslavesPasswordGrabber quick start guide
+
+Preperations: visit the following links and download ->
+
+	-Duck_Encoder_v2.6.zip
+	-c_duck_v2.1.hex
+	DL: https://code.google.com/p/ducky-decode/downloads/list
+
+	-Duck Flashing Tools
+	DL: http://code.google.com/p/ducky-decode/source/browse/trunk/Flash/Duck%20Programming.zip
+
+1. Step:
+First we need to flash Ducky with the c_duck_v2.1.hex firmware, if you never did it
+follow this guide: https://code.google.com/p/ducky-decode/wiki/Flashing_Guide
+
+2. Step:
+Ducky should now show up as storage device (like a USB stick), make sure the microSD
+card is plugged in...
+rename the Ducky storage device that just popped up to DUCKY, thats very important.
+
+3. Step:
+Copy the "exec" folder inside the root directory of the DUCKY, and create a folder with
+the name of "logs", make sure its "logs" not "Logs" "LOGS" "l0g0rzer" otherwise you have
+define the folder by yourself in the batch file & payload.
+
+4. Step:
+Encode the file: "PowerslavesPasswordGrabber.txt" like described in -->
+https://code.google.com/p/ducky-decode/wiki/Encoder_Howto
